@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Player</servlet-name>
+  	<display-name>Player</display-name>
+  	<description></description>
+  	<servlet-class>com.monami.jdbc.Player</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Player1</servlet-name>
+  	<display-name>Player1</display-name>
+  	<description></description>
+  	<servlet-class>com.monami.jdbc.Player1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Player2</servlet-name>
+  	<display-name>Player2</display-name>
+  	<description></description>
+  	<servlet-class>com.monami.jdbc1.Player2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Player</servlet-name>
+  	<url-pattern>/player</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Player1</servlet-name>
+  	<url-pattern>/player1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Player2</servlet-name>
+  	<url-pattern>/player2</url-pattern>
+  </servlet-mapping>
+</web-app>
